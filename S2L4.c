@@ -23,7 +23,7 @@ int gioca_partita()
     printf("A >> 3\nB >> 2\nC >> 5\n");
     scanf(" %c", &risposta1);
 
-    if (risposta1 = 'C')
+    if (risposta1 == 'C')
         {
             punteggio++;
         }
@@ -33,7 +33,7 @@ int gioca_partita()
     printf("A >> Milano \nB >> Roma \nC >> Napoli \n");
     scanf(" %c", risposta2);
 
-    if (risposta2 = 'B');
+    if (risposta2 == 'B');
     {
         punteggio++;
     }
